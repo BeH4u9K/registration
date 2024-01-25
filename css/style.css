@@ -1,0 +1,802 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+
+
+
+
+body {
+
+    justify-content: center;
+    align-items: center;
+    /* min-height: 100vh; */
+    background: #c7b39b url(/registration/images/background.jpg)no-repeat;
+    background-size: 100% auto;
+    min-width: 310px;
+
+}
+
+.wraper {
+    position: absolute;
+    width: 90%;
+    height: auto;
+    /* background: #985ACE; */
+    /* display: block; */
+    /* overflow: hidden; */
+
+}
+
+
+
+
+.info-Registration {
+
+    display: none;
+}
+
+.info-Registration_show {
+    display: block;
+}
+
+    
+.Registration-Entrance {
+    display: block;
+    width: 345px;
+    height: 440px;
+    margin: 63px 0px 0px 580px;
+    /* margin:auto ; */
+    background: transparent;
+    box-shadow: 0px 4px 17px rgba(0, 0, 0, 0.17);
+    border-radius: 30px;
+    position: absolute;
+    backdrop-filter: blur(20px);
+}
+
+
+
+.Registration-Entrance_Text {
+    width: 220px;
+    height: 22px;
+    margin: 10px 0 20px 63px;
+    color: rgba(0, 0, 0, 0.17);
+    
+}
+
+.Entrance_Text {
+    position: absolute;
+    margin: 2px 0px 0 15px;
+    font-family: 'HelveticaNeue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    text-decoration: none;
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    background-color: #337ab785;
+    border-color:#337AB7;
+}
+
+.Registration_Text {
+    position: absolute;
+    margin: 2px 0px 0px 80px;
+    font-family: 'HelveticaNeue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    text-transform: uppercase;   
+    border-color:#337AB7;
+    text-transform: uppercase;
+    border-radius:  20px;
+    background-color: #337ab785;  
+}
+
+.name {
+    width: 68px;
+    height: 15px;
+    left: 578px;
+    top: 702px;
+    margin: 17px 0 0 50px;
+
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 13px;
+    color: #000;
+}
+
+.input_name {
+
+    width: 273px;
+    height: 40px;
+    margin: 0 0 0 35px;
+    top: 715px;
+    background: #98d2ff26;
+    border-radius: 7px;
+    outline: none !important;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-color:#337AB7;
+}
+
+.Surname {
+    width: 68px;
+    height: 15px;
+    margin: 0 0 0 50px;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 13px;
+
+    color: #000;
+}
+
+.input_Surname {
+    width: 273px;
+    height: 40px;
+    margin: 0 0 0 35px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background: #98d2ff26;
+    border-radius: 7px;
+    outline: none !important;
+    border-color:#337AB7;
+}
+
+.E-mail {
+    width: 68px;
+    height: 15px;
+    margin: 0 0 0 50px;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 13px;
+
+    color: #000;
+}
+
+.input_E-mail {
+    width: 273px;
+    height: 40px;
+    margin: 0 0 0 35px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background: #98d2ff26;
+    border-radius: 7px;
+    outline: none !important;
+    border-color:#337AB7;
+}
+
+.Password {
+    width: 68px;
+    height: 15px;
+    margin: 0 0 0 50px;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 13px;
+
+    color: #000;
+}
+
+.input_Password {
+    width: 273px;
+    height: 40px;
+    margin: 0 0 0 35px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background: #98d2ff26;
+    border-radius: 7px;
+    outline: none !important;
+    border-color:#337AB7;
+}
+
+.Confirm-your-password {
+    width: 87px;
+    height: 15px;
+    margin: 0 0 0 50px;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 13px;
+
+    color: #000;
+}
+
+.input_Confirm-your-password {
+    width: 273px;
+    height: 40px;
+    margin: 0 0 0 35px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background: #98d2ff26;
+    border-radius: 7px;
+    outline: none !important;
+    border-color:#337AB7;
+}
+
+.button-Registration {
+    width: 273px;
+    height: 40px;
+    margin: 25px 0 0 35px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background: #98d2ff26;
+    border-radius: 7px;
+    cursor: pointer;
+    border-color:#337AB7;
+}
+
+.Registration_error {
+    display: none;
+    margin: 5px 0px 0px 620px;
+    width: 320px;
+    height: 50px;
+}
+
+.Registration_error_show {
+    display: flex;
+
+}
+
+.Registration_OK {
+    display: none;
+    margin: 5px 0px 0px 610px;
+    width: 320px;
+    height: 50px;
+}
+
+.Registration_OK_show {
+    display: flex;
+}
+
+.Registration_password {
+    display: none;
+    margin: 5px 0px 0px 610px;
+    width: 320px;
+    height: 50px;
+}
+
+.Registration_password_show {
+    display: flex;
+}
+
+
+
+
+.red_cube {
+    display: flex;
+    width: 273px;
+    height: 40px;
+    margin: 10px 0px 0px 0px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background: #2b5280;
+    border-radius: 7px;
+}
+
+.text_error {
+    width: 273px;
+    height: 40px;
+    text-align: center;
+    margin-top: 10px;
+
+
+}
+
+.button_error {
+    /* height: 30px;
+    background-color: red;
+    margin: 15px 0px 0px 10px;
+    border-radius: 7px; */
+
+    margin: 22px 0px 0px 10px;
+    width: 1.4em;
+    height: 1.4em;
+    background-color: rgb(0, 0, 0);
+    clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);
+    /* border-radius: 7px;  */
+
+
+}
+
+/* 222222222222222222222222 */
+.cl-btn-7 {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    position: relative;
+    z-index: 1;
+    margin: 20px auto;
+    cursor: pointer;
+}
+
+.cl-btn-7:before {
+    content: '+';
+    color: #337AB7;
+    position: absolute;
+    z-index: 2;
+    transform: rotate(45deg);
+    font-size: 50px;
+    line-height: 1;
+    top: -15px;
+    left: 6px;
+    transition: all 0.3s cubic-bezier(0.77, 0, 0.2, 0.85);
+}
+
+.cl-btn-7:after {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    background: #337AB7;
+    z-index: 1;
+    transition: all 0.3s cubic-bezier(0.77, 0, 0.2, 0.85);
+    transform: scale(0.01);
+}
+
+.cl-btn-7:hover:after {
+    transform: scale(1);
+}
+
+.cl-btn-7:hover:before {
+    transform: scale(0.8) rotate(45deg);
+    color: #000;
+}
+
+/* 222222222222222222222222 */
+
+.button_OK {
+    height: 30px;
+    margin: 15px 0px 0px 10px;
+    border-radius: 7px;
+    color: #000;
+    background-color: #2b5280;
+}
+
+@media screen and (max-width: 940px) {
+
+    .Registration-Entrance {
+        width: 80%;
+        margin: 63px 0px 0px 40px;
+        min-width: 200px;
+        max-width: 350px;
+        height: 400px;
+        backdrop-filter: blur(20px);
+    }
+
+
+    .name {
+        width: 80%;
+        margin: 0px 0 0 50px;
+        color: #c7b39b;
+    }
+
+    .input_name {
+        width: 80%;
+        margin: 0 0 0 35px;
+        color: #c7b39b;
+    }
+
+    .Surname {
+        width: 80%;
+        margin: 0px 0 0 50px;
+        color: #c7b39b;
+    }
+
+    .input_Surname {
+        width: 80%;
+        margin: 0 0 0 35px;
+        color: #c7b39b;
+    }
+
+    .E-mail {
+        width: 80%;
+        margin: 0px 0 0 50px;
+        color: #c7b39b;
+    }
+
+    .input_E-mail {
+        width: 80%;
+        margin: 0 0 0 35px;
+        color: #c7b39b;
+    }
+
+    .Password {
+        width: 80%;
+        margin: 0px 0 0 50px;
+        color: #c7b39b;
+    }
+
+    .input_Password {
+        width: 80%;
+        margin: 0 0 0 35px;
+        color: #c7b39b;
+    }
+
+    .Confirm-your-password {
+        width: 80%;
+        margin: 0px 0 0 50px;
+        color: #c7b39b;
+    }
+
+    .input_Confirm-your-password {
+        width: 80%;
+        margin: 0 0 0 35px;
+        color: #c7b39b;
+    }
+
+    .button-Registration {
+        width: 80%;
+        margin: 25px 0 0 35px;
+        color: #c7b39b;
+    }
+
+
+
+    .Registration_OK {
+        width: 80%;
+        margin: 0px 0px 0px 70px;
+        min-width: 200px;
+        max-width: 350px;
+    }
+
+    .Registration_password {
+        width: 80%;
+        margin: 0px 0px 0px 70px;
+        min-width: 200px;
+        max-width: 350px;
+    }
+
+    .red_cube {
+        width: 80%;
+        color: #c7b39b;
+
+    }
+
+    .Registration_error {
+        width: 80%;
+        margin: 0px 0px 0px 70px;
+        min-width: 200px;
+        max-width: 350px;
+    }
+
+    body {
+        justify-content: center;
+        align-items: center;
+        /* min-height: 100vh; */
+        background: #c7b39b url(/registration/images/nebo-oboi-na-telefon-17.jpg)no-repeat;
+        background-size: 100% auto;
+        min-width: 310px;
+    }
+
+    .Entrance_Text{
+        color: #c7b39b;
+        width: 20%;
+    }
+
+    .Registration_Text {
+        color: #c7b39b;
+        width: 46%;
+    }
+
+    .Registration-Entrance_Text{
+        width: 80%;
+        margin: 0px 0 20px 40px;
+        /* justify-content: center; */
+    }
+
+}
+
+/* <!-- ----------------ВХОД---------------------------------- --> */
+
+
+.info-Entrance {
+    display: none;    
+
+}
+
+.info-Entrance_show {
+    display: block;
+}
+
+
+
+
+
+
+.E-mail {
+    width: 68px;
+    height: 15px;
+    left: 578px;
+    top: 702px;
+    margin: 0px 0 0 50px;
+
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 13px;
+    color: #000;
+}
+
+.input_E-mail {
+    width: 273px;
+    height: 40px;
+    margin: 0 0 0 35px;
+    top: 715px;
+    background: #98d2ff26;
+    border-radius: 7px;
+    outline: none !important;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.Password {
+    width: 68px;
+    height: 15px;
+    margin: 0 0 0 50px;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 13px;
+
+    color: #000;
+}
+
+.input_Password {
+    width: 273px;
+    height: 40px;
+    margin: 0 0 0 35px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background: #98d2ff26;
+    border-radius: 7px;
+    outline: none !important;
+}
+
+.button-Registration {
+    width: 273px;
+    height: 40px;
+    margin: 25px 0 0 35px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background: #98d2ff26;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+
+
+.Entrance_error {
+    display: none;
+    margin: 5px 0px 0px 620px;
+    width: 320px;
+    height: 50px;
+}
+
+
+.Entrance_error_show {
+    display: flex;
+
+}
+
+.Entrance_OK {
+    display: none;
+    margin: 5px 0px 0px 620px;
+    width: 320px;
+    height: 50px;
+}
+
+.Entrance_OK_show {
+    display: flex;
+}
+
+.Entrance_ban {
+    display: none;
+    margin: 5px 0px 0px 620px;
+    width: 320px;
+    height: 50px;
+}
+
+.Entrance_ban_show {
+    display: flex;
+}
+
+.Entrance_save {
+    display: none;
+    margin: 5px 0px 0px 620px;
+    width: 320px;
+    height: 50px;
+}
+
+.Entrance_save_show {
+    display: flex;
+}
+
+.red_cube {
+    display: flex;
+    width: 273px;
+    height: 40px;
+    margin: 10px 0px 0px 0px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background: #2b5280;
+    border-radius: 7px;
+
+}
+
+.text_error {
+    width: 273px;
+    height: 40px;
+    text-align: center;
+    margin-top: 10px;
+
+
+}
+
+.button_error {
+    margin: 22px 0px 0px 10px;
+    width: 1.4em;
+    height: 1.4em;
+    background-color: rgb(0, 0, 0);
+    clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);
+    /* border-radius: 7px;  */
+}
+
+.button_OK {
+    height: 30px;
+    margin: 15px 0px 0px 10px;
+    border-radius: 7px;
+    color: #000;
+    background-color: #2b5280;
+}
+
+
+
+/* 222222222222222222222222 */
+.cl-btn-7 {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    position: relative;
+    z-index: 1;
+    margin: 20px auto;
+    cursor: pointer;
+}
+
+.cl-btn-7:before {
+    content: '+';
+    color: #337AB7;
+    position: absolute;
+    z-index: 2;
+    transform: rotate(45deg);
+    font-size: 50px;
+    line-height: 1;
+    top: -15px;
+    left: 6px;
+    transition: all 0.3s cubic-bezier(0.77, 0, 0.2, 0.85);
+}
+
+.cl-btn-7:after {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    background: #337AB7;
+    z-index: 1;
+    transition: all 0.3s cubic-bezier(0.77, 0, 0.2, 0.85);
+    transform: scale(0.01);
+}
+
+.cl-btn-7:hover:after {
+    transform: scale(1);
+}
+
+.cl-btn-7:hover:before {
+    transform: scale(0.8) rotate(45deg);
+    color: #000;
+}
+
+
+@media screen and (max-width: 940px) {
+    .Registration {
+        width: 80%;
+        margin: 63px 0px 0px 40px;
+        min-width: 200px;
+        max-width: 350px;
+        height: 370px;
+    }
+
+    .E-mail {
+        width: 80%;
+        margin: 0px 0 0 50px;
+        color: #c7b39b;
+    }
+
+    .input_E-mail {
+        width: 80%;
+        margin: 0 0 0 35px;
+        color: #c7b39b;
+    }
+
+    .Password {
+        width: 80%;
+        margin: 0px 0 0 50px;
+        color: #c7b39b;
+    }
+
+    .input_Password {
+        width: 80%;
+        margin: 0 0 0 35px;
+        color: #c7b39b;
+    }
+
+    .button-Registration {
+        width: 80%;
+        margin: 25px 0 0 35px;
+        color: #c7b39b;
+    }
+
+    .Entrance_ban {
+        width: 80%;
+        margin: 0px 0px 0px 70px;
+        min-width: 200px;
+        max-width: 350px;
+    }
+
+    .Entrance_error {
+        width: 80%;
+        margin: 0px 0px 0px 70px;
+        min-width: 200px;
+        max-width: 350px;
+    }
+
+    .Entrance_OK {
+        width: 80%;
+        margin: 0px 0px 0px 70px;
+        min-width: 200px;
+        max-width: 350px;
+    }
+
+    .Entrance_save {
+        width: 80%;
+        margin: 0px 0px 0px 70px;
+        min-width: 200px;
+        max-width: 350px;
+    }
+
+    .red_cube {
+        width: 80%;
+
+    }
+
+    body {
+        justify-content: center;
+        align-items: center;
+        /* min-height: 100vh; */
+        background: #c7b39b url(/registration/images/nebo-oboi-na-telefon-17.jpg)no-repeat;
+        background-size: 100% auto;
+        min-width: 310px;
+    }
+
+    .red_cube {
+        color: #c7b39b;
+    }
+
+    .button_OK {
+        color: #c7b39b;
+    }
+
+}

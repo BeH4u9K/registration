@@ -1,0 +1,520 @@
+ .wraper {
+    position: absolute;
+    width: 90%;
+    height: 90%;
+} 
+
+body { 
+
+    justify-content: center;
+    align-items: center;
+    /* min-height: 100vh; */
+    background: #c7b39b url(/registration/images/background.jpg)no-repeat;
+    background-size: 100% auto;
+    min-width: 310px;
+
+}
+
+
+.music_generator {
+    /* justify-content: center; */
+    display: block;
+    width: 386px;
+    height: 550px;
+    background: #FFFFFF;
+    margin: 63px 0px 0px 580px;
+    background: transparent;
+    box-shadow: 0px 4px 17px rgba(0, 0, 0, 0.17);
+    border-radius: 30px;
+    position: absolute;
+    backdrop-filter: blur(20px);
+}
+
+
+
+
+
+.input_music {
+    width: 185px;
+    height: 26px;
+    background: #98d2ff26;
+    border-radius: 7px;
+    outline: none !important;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.conterner_music {
+    display: block;
+    /* background-color: brown; */
+    width: 270px;
+    height: 80px;
+
+    margin: 80px 0 0 75px;
+}
+
+.generator_input_music {
+    width: 26px;
+    height: 26px;
+    border-radius: 7px;
+    background: #98d2ff26;
+    border-radius: 7px;
+    outline: none !important;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    margin: 0px 0 0 10px;
+}
+
+.text_music {
+    display: flex;
+    width: 303px;
+    height: 75px;
+    border-radius: 7px;
+    background: #98d2ff26;
+    border-radius: 7px;
+    outline: none !important;
+    background-color: #75c3ff8c;
+    margin: 25px 0 0 5px;
+
+}
+
+.img_music {
+    width: 47px;
+    height: 55px;
+    margin: 10px 0 0 11px;
+}
+
+.close_button {
+    margin: 0px 0 0 10px;
+    width: 1.4em;
+    height: 1.4em;
+    background-color: rgb(0, 0, 0);
+    clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);
+}
+
+.text {
+    margin: 25px 0 0 15px;
+    width: 135px;
+    height: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 18px;
+
+}
+
+.wraper_music_generator {
+    display: none;
+    width: 345px;
+    height: 120px;
+    /* background-color: aqua ;  */
+    margin: 120px 0 0 40px;
+
+}
+
+.wraper_music_generator_show {
+    display: flex;
+}
+
+.additional_information {
+    margin: 10px 0 0 30px;
+    width: 160px;
+    height: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 18px;
+}
+
+.wraper_music {
+    display: flex;
+    width: 345px;
+    height: 120px;
+    /* background-color: aqua ;  */
+    margin: 25px 0 0 100px;
+
+}
+
+.text-generator {
+    width: 135px;
+    height: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 18px;
+    margin: 0px 0 0 0px;
+    text-align: center;
+    /* color: rgb(0, 68, 255); */
+}
+
+.music_generator_text {
+    display: flex;
+    width: 165px;
+    height: 25px;
+    /* background-color: chartreuse; */
+    margin: 30px 0 0 105px;
+}
+
+.RU {
+    /* position: absolute; */
+    margin: 2px 0px 0px 0px;
+    ;
+    font-family: 'HelveticaNeue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
+
+.EN {
+    /* position: absolute; */
+    margin: 2px 0px 0px 0px;
+    ;
+    font-family: 'HelveticaNeue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
+
+.last_information {
+    margin: 10px 0 0 640px;
+    width: 225px;
+    height: 121px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 18px;
+}
+
+/* 222222222222222222222222 */
+.cl-btn-7 {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    position: relative;
+    z-index: 1;
+    margin: 20px auto;
+    cursor: pointer;
+}
+
+.cl-btn-7:before {
+    content: '+';
+    color: #337AB7;
+    position: absolute;
+    z-index: 2;
+    transform: rotate(45deg);
+    font-size: 50px;
+    line-height: 1;
+    top: -15px;
+    left: 6px;
+    transition: all 0.3s cubic-bezier(0.77, 0, 0.2, 0.85);
+}
+
+.cl-btn-7:after {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    background: #337AB7;
+    z-index: 1;
+    transition: all 0.3s cubic-bezier(0.77, 0, 0.2, 0.85);
+    transform: scale(0.01);
+}
+
+.cl-btn-7:hover:after {
+    transform: scale(1);
+}
+
+.cl-btn-7:hover:before {
+    transform: scale(0.8) rotate(45deg);
+    color: #000;
+}
+
+/* 222222222222222222222222 */
+
+/* для элемента input c type="radio" */
+.custom-radio {
+    position: absolute;
+    /* z-index: -1; */
+    opacity: 0;
+
+}
+
+/* для элемента label связанного с .custom-radio */
+.custom-radio+label {
+
+    align-items: center;
+    user-select: none;
+}
+
+/* создание в label псевдоэлемента  before со следующими стилями */
+.custom-radio+label::before {
+    content: '';
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 1px solid #adb5bd;
+    border-radius: 50%;
+    margin-right: 0.5em;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+}
+
+/* стили при наведении курсора на радио */
+.custom-radio:not(:disabled):not(:checked)+label:hover::before {
+    border-color: #b3d7ff;
+}
+
+/* стили для активной радиокнопки (при нажатии на неё) */
+.custom-radio:not(:disabled):active+label::before {
+    background-color: #b3d7ff;
+    border-color: #b3d7ff;
+}
+
+/* стили для радиокнопки, находящейся в фокусе */
+.custom-radio:focus+label::before {
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* стили для радиокнопки, находящейся в фокусе и не находящейся в состоянии checked */
+.custom-radio:focus:not(:checked)+label::before {
+    border-color: #80bdff;
+}
+
+/* стили для радиокнопки, находящейся в состоянии checked */
+.custom-radio:checked+label::before {
+    border-color: #034e888c;
+    background-color: #75c3ff8c;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e");
+}
+
+/* стили для радиокнопки, находящейся в состоянии disabled */
+.custom-radio:disabled+label::before {
+    background-color: #e9ecef;
+}
+
+.radio {
+    margin-bottom: 0.4em;
+}
+
+
+.cheese {
+    color: #c7b39b;
+}
+
+.info-error {
+    display: none;
+    margin: 5px 0px 0px 620px;
+    width: 320px;
+    height: 50px;
+    /* background-color: #c7b39b; */
+}
+
+.info-error_show {
+    display: flex;
+}
+
+
+
+.red_cube {
+    display: flex;
+    width: 273px;
+    height: 40px;
+    margin: 10px 0px 0px 0px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background: #2b5280;
+    border-radius: 7px;
+}
+
+.text_error {
+    width: 273px;
+    height: 40px;
+    text-align: center;
+    margin-top: 10px;
+
+
+}
+
+.ddd{
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 940px) {
+
+    /* body{
+        
+        min-width: 380px;
+        
+    } */
+
+    .wraper{
+        
+        width:80% ;
+    }
+
+    .music_generator {
+        height: 430px;
+        width: 80%;
+        margin: 63px 0px 0px 0px;
+
+
+        min-height: 300px;
+
+        /* width: 80%;
+        margin: 63px 0px 0px 40px;
+        min-width: 200px;
+        max-width: 350px;
+        height: 400px;
+        backdrop-filter: blur(20px); */
+
+
+    }
+
+
+
+
+    .music_generator_text {
+        width: 50%;
+        margin: auto;
+        margin-bottom: 80px;
+
+    }
+
+
+    .conterner_music {
+        width: 50%;
+        /* background-color: aquamarine; */
+        margin: auto;
+
+    }
+
+    .input_music {
+        max-width: 100px;
+        min-width: 20px;
+        justify-content: center;
+        width: 35%;
+        color: #c7b39b;
+        margin-left: 45px;
+    }
+
+    .generator_input_music {
+        margin: auto;
+        color: #c7b39b;
+        /* margin: 0px 0 0 59px; */
+    }
+
+    .additional_information {
+        margin-left: 10px;
+
+    }
+
+    .wraper_music_generator {
+        width: 80%;
+        margin: 15px 0 0 60px;
+    }
+
+    .close_button {
+        height: 1.3em;
+
+    }
+
+    .text_music {
+        width: 80%;
+        margin: auto;
+    }
+
+    body {
+        justify-content: center;
+        align-items: center;
+        /* min-height: 100vh; */
+        background: #c7b39b url(/registration/images/nebo-oboi-na-telefon-17.jpg)no-repeat;
+        background-size: 100% auto;
+        min-width: 310px;
+    }
+
+    .RU {
+        color: #c7b39b;
+    }
+
+    .EN {
+
+        color: #c7b39b;
+    }
+
+    .text-generator {
+        color: #c7b39b;
+    }
+
+    .additional_information {
+        color: #c7b39b;
+    }
+
+    .custom-radio:checked+label::before {
+        border-color: #75c3ff8c;
+        background-color: #c7b39b;
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e");
+    }
+
+    .custom-radio+label::before {
+        background-color: #0288D1;
+    }
+
+    .RU-EN {
+        color: #c7b39b;
+    }
+
+    .info-error{
+        width: 80%;
+        margin: 0px 0px 0px 70px;
+        min-width: 200px;
+        max-width: 350px;
+    }
+    .red_cube {
+        width: 80%;
+        color: #c7b39b;
+
+    }
+}
+
+/* @media screen and (max-width: 300px){
+
+.generator_input_music{
+    margin: 15px 0 0 60px;
+}
+
+} */
+
+@media screen and (max-width: 320px) {
+    .generator_input_music {
+        margin: 10px 0 0 60px;
+    }
+
+    .additional_information {
+        width: 100px;
+        text-align: center;
+        margin: 0 0 0 20px;
+    }
+}

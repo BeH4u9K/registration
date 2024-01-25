@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> music search </title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div class="wraper">
+        
+        
+        <div class="music_generator">
+            <div class="music_generator_text">
+                <!-- <a class="RU" href="music_search_RU/index.html">RU</a>
+                <h3 class="text-generator">Поиск музыки</h3>
+                <a class="EN" href="">EN</a> -->
+                <!-- <button class="RU" id="ru">RU</button>
+                    <h3 class="text-generator">Поиск музыки</h3>
+                    <button class="EN" id="en">EN</button> -->
+                <!-- <h3>ru</h3>
+                    <input type="radio" class="checkboxRU" id="ru">
+                    
+                        <h3 class="text-generator">Поиск музыки</h3>
+                    <input type="radio" id="en">
+                    <h3>en</h3> -->
+
+                <div class="radio">
+
+                    <input class="custom-radio" type="radio" id="ru" name="color" value="red">
+                    <label class="RU-EN" for="cheese">RU</label>
+                </div>
+
+                <h3 class="text-generator">Поиск музыки</h3>
+
+                <div class="radio">
+
+                    <input class="custom-radio" type="radio" id="en" name="color" value="red">
+                    <label class="RU-EN" for="cheese">EN</label>
+                </div>
+            </div>
+            <div class="conterner_music">
+                <input class="input_music" id="input_music" type="number">
+                <button class="generator_input_music" id="generator_input_music">ok</button>
+                <h4 class="additional_information">поиск с 1995 по 2022</h4>
+            </div>
+            <div class="wraper_music_generator" id="wraper_music_generator">
+                <div class="text_music">
+                    <img src="images/IMAGE.png" class="img_music" alt="">
+                    <h3 class="text " id="text1"></h3>
+                </div>
+                <!-- <div class="close_button" id="close_button_generator"></div> -->
+                <div class="cl-btn-7" id="close_button_generator"></div>
+            </div>
+            
+
+        </div>
+        <div class="info-error" id="info-error">
+            <div class="red_cube" id="red_cube">
+                <h4 class="text_error" id="text_error">Неверное условия</h4>
+            </div>
+            <div class="cl-btn-7" id="close_button_error"></div>
+        </div>
+
+
+
+        
+
+    </div>
+</body>
+<script src="js/main.js"></script>
+
+</html>
